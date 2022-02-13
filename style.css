@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: #e0e0e0;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    height:100vh;
+    width: 100vw;
+
+}
+.card i{
+    font-size: 62px;
+    background-color: #d0d0d0;
+}
+.card a{
+    cursor: auto;
+    color: #303030;
+    
+}
+.containerText{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    background: #e0e0e0;
+    height: 60px;
+    width: 350px;
+    letter-spacing: 0.150em;
+    box-shadow: 5px 5px 8px #353535,
+                    -5px -5px 8px white;
+    margin-bottom: 1em;
+}
+.containerText p{
+    background-color: transparent;
+    font-family: "quintessential";
+    font-size: 18px;
+}
+.container{
+    transition: 1s;
+    margin-top: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    background: #d0d0d0;
+    height: 200px;
+    width: 200px;
+    box-shadow: 5px 5px 8px #353535,
+                    -5px -5px 8px white;
+}
+.container:hover{
+    width: 250px;
+    
+}
+
